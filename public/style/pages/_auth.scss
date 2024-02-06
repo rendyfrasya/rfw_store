@@ -1,0 +1,44 @@
+.page-auth {
+  margin-top: 100px;
+  @include media-breakpoint-down(md) {
+    margin-top: 140px;
+  }
+  .row-login {
+    min-height: 70vh;
+  }
+  .section-store-auth {
+    h2 {
+      font-weight: 200;
+      font-size: 28px;
+      margin-top: 0;
+      color: #0c0d36;
+    }
+    .form-control {
+      border-radius: 8px;
+      background: #f3f3f3;
+      width: 75%;
+      @include media-breakpoint-down(md) {
+        width: 100%;
+      }
+    }
+    .form-control-register {
+      border-radius: 8px;
+      background: #f3f3f3;
+      width: 100%;
+    }
+    .btn-success {
+      width: 75%;
+      @include media-breakpoint-down(md) {
+        width: 100%;
+      }
+    }
+    .btn-signup {
+      width: 75%;
+      @include media-breakpoint-down(md) {
+        width: 100%;
+      }
+      @include button-variant(#dfdada, transparent);
+      color: #8a8787;
+    }
+  }
+}

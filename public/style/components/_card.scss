@@ -1,0 +1,33 @@
+.card {
+  background: #ee964b;
+  box-shadow: 0px 4px 15px #f1f1f8;
+  border-radius: 8px;
+  border: none;
+  text-decoration: none !important;
+  .dashboard-card-title {
+    font-size: 16px;
+    color: #faf0ca;
+  }
+
+  .dashboard-card-subtitle {
+    font-weight: 600;
+    font-size: 32px;
+    color: #faf0ca;
+  }
+}
+.card-settings {
+  box-shadow: 0px 4px 15px #f1f1f8;
+  border-radius: 8px;
+  border: none;
+  text-decoration: none !important;
+  .dashboard-card-title {
+    font-size: 16px;
+    color: #faf0ca;
+  }
+
+  .dashboard-card-subtitle {
+    font-weight: 600;
+    font-size: 32px;
+    color: #faf0ca;
+  }
+}

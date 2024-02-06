@@ -1,0 +1,70 @@
+.navbar-toggler {
+  background-color: #edeeeb;
+}
+.navbar-store {
+  margin: auto;
+  margin-bottom: 23px;
+  border-radius: 8px;
+  margin-top: 10px;
+  max-width: 85%;
+  background-color: #0d3b66;
+  border: 2px solid;
+  border-color: #ee964b;
+
+  .navbar-nav > .active > a {
+    color: #ee964b;
+  }
+  .nav-item {
+    .nav-link {
+      color: #faf0ca;
+      padding: 0.8rem 0.8rem;
+      &:hover {
+        color: #ee964b;
+      }
+      @include media-breakpoint-up(lg) {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      @include media-breakpoint-up(md) {
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  .login-btn {
+    @include media-breakpoint-up(lg) {
+      padding: 0.8rem 0.8rem;
+      justify-self: center;
+      position: absolute;
+      right: 15px;
+    }
+  }
+  .btn-primary {
+    border-radius: 6px;
+    background-color: #ee964b;
+    color: #f4f4f4;
+  }
+  .profile-picture {
+    max-height: 55px;
+  }
+
+  .cart-badge {
+    display: inline-block;
+    min-width: 2em; /* em unit */
+    padding: 0.3em; /* em unit */
+    border-radius: 50%;
+    font-size: 10px;
+    text-align: center;
+    background: #29a867;
+    color: #fefefe;
+    margin-left: -10px;
+  }
+  .cart-logo {
+    margin-top: 0.8rem;
+  }
+}
+.navbar-fixed-top.scrolled {
+  background-color: #0d3b66 !important;
+  transition: background-color 200ms linear;
+}

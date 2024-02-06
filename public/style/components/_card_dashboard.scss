@@ -1,0 +1,20 @@
+.card-dashboard-product {
+  margin-bottom: 10px;
+  background-color: white;
+  .card-body {
+    padding: 2rem;
+
+    .product-title {
+      margin-top: 20px;
+      font-weight: normal;
+      font-size: 25px;
+      color: #0c0d36;
+    }
+
+    .product-category {
+      font-size: 16px;
+      line-height: 24px;
+      color: #c5c5c5;
+    }
+  }
+}
